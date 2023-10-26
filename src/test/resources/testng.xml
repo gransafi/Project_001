@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="com.Pages" parallel="methods" thread-count="3">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+<!--        <class name="com.PageTests.homePageTest"/>-->
+<!--        <class name="com.PageTests.addRemovePageTest"/>-->
+<!--        <class name="com.PageTests.basicAuthTest"/>-->
+<!--        <class name="com.PageTests.brokinImageTest"/>-->
+<!--        <class name="com.PageTests.checkBoxTest"/>-->
+<!--            <class name="com.PageTests.contextMenuTest"/>-->
+<!--            <class name="com.PageTests.disapearingElementTest"/>-->
+<!--            <class name="com.PageTests.dragAndDropTest"/>-->
+<!--            <class name="com.PageTests.dropdownTest"/>-->
+<!--            <class name="com.PageTests.dynamicContentTest"/>-->
+<!--            <class name="com.PageTests.dynamicLoadingTest"/>-->
+            <class name="com.PageTests.entryAdTest"/>
+        </classes>
+    </test>
+</suite>
+
+
+
+        <!--    <test name="com.HRM.Pages " parallel="methods" thread-count="1">-->
+        <!--        <parameter name="browser" value="ff"/>-->
+        <!--        <classes>-->
+        <!--            <class name="paleontologist" />-->
+        <!--        </classes>-->
+        <!--    </test>-->
+
+<!--<classes>-->
+<!--<class name="com.PageTests.homePageTest"/>-->
+<!--<class name="com.PageTests.addRemovePageTest"/>-->
+<!--<class name="com.PageTests.basicAuthTest"/>-->
+<!--<class name="com.PageTests.brokinImageTest"/>-->
+<!--<class name="com.PageTests.checkBoxTest"/>-->
+<!--</classes>-->

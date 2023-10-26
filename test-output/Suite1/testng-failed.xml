@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="com.Pages(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.PageTests.entryAdTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyEntryAdTest"/>
+        </methods>
+      </class> <!-- com.PageTests.entryAdTest -->
+    </classes>
+  </test> <!-- com.Pages(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

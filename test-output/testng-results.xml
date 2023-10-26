@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T03:16:07 EDT" name="Suite1" finished-at="2023-08-17T03:16:11 EDT" duration-ms="4215">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T03:16:07 EDT" name="com.Pages" finished-at="2023-08-17T03:16:11 EDT" duration-ms="4215">
+      <class name="com.PageTests.entryAdTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.PageTests.entryAdTest@3972a855]" started-at="2023-08-17T03:16:07 EDT" name="setUp" finished-at="2023-08-17T03:16:10 EDT" duration-ms="2901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEntryAdTest()[pri:1, instance:com.PageTests.entryAdTest@3972a855]" started-at="2023-08-17T03:16:10 EDT" name="verifyEntryAdTest" finished-at="2023-08-17T03:16:11 EDT" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEntryAdTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.PageTests.entryAdTest@3972a855]" started-at="2023-08-17T03:16:11 EDT" name="tearDown" finished-at="2023-08-17T03:16:11 EDT" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.PageTests.entryAdTest -->
+    </test> <!-- com.Pages -->
+  </suite> <!-- Suite1 -->
+</testng-results>
