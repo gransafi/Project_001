@@ -2,6 +2,7 @@ package com.Pages;
 import org.openqa.selenium.WebDriver;
 
 public class parentPage {
+    // this is parent page all other pages are extended to parent page.
     public WebDriver driver;
 
     public parentPage(WebDriver driver) {
