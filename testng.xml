@@ -1,2 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Lenovogs/Desktop/Herokuapp/com.Herokuapp/testng.xml"><classes/></test></suite>
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >-->
+
+<!--<suite name="Suite1" verbose="1" >-->
+<!--    &lt;!&ndash;    <test name="com.Oragne.HRM.App" >&ndash;&gt;-->
+<!--    &lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--    &lt;!&ndash;            <class name="com.Orange.testPages" />&ndash;&gt;-->
+<!--    &lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </test>&ndash;&gt;-->
+<!--    &lt;!&ndash;    <listeners>&ndash;&gt;-->
+<!--    &lt;!&ndash;        <listener class-name="com.Orange.testPages.LoginTest"/>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </listeners>&ndash;&gt;-->
+<!--    <parameter name="browser" value="chrome"/>-->
+<!--    <test name="Regression1">-->
+<!--        <classes>-->
+<!--           <class name="com.PageTests.basicAuthTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->

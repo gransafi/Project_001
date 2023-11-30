@@ -15,7 +15,8 @@
 <!--            <class name="com.PageTests.dropdownTest"/>-->
 <!--            <class name="com.PageTests.dynamicContentTest"/>-->
 <!--            <class name="com.PageTests.dynamicLoadingTest"/>-->
-            <class name="com.PageTests.entryAdTest"/>
+<!--            <class name="com.PageTests.fileDownloaderTest"/>-->
+            <class name="com.PageTests.upLoadFileTest"/>
         </classes>
     </test>
 </suite>
